@@ -63,7 +63,7 @@ export default class MasterView extends Component {
     return (
       <View style={{flex: 1, flexDirection: 'column'}}>
         <ListView
-        contentInset={{bottom:49}}
+        contentInset={{bottom:15}}
         automaticallyAdjustContentInsets={false}
         style={styles.container}
         dataSource={this.state.dataSource}
